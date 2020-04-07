@@ -17,6 +17,7 @@ int main()
     return 0;
 }
 
+// prints hello world to the console
 int printHelloWorld() 
 {
         std::cout << "Hello World" << std::endl;
@@ -24,6 +25,10 @@ int printHelloWorld()
         return 0;
 }
 
+/*
+ * writes to console the result of the multiplication of both parameters,
+ * returns the result
+ */
 int multiply(int v1, int v2) 
 {
     int result = v1 * v2;
